@@ -2,6 +2,7 @@ class Solution:
     # @param x, an integer
     # @return a boolean
     def isPalindrome(self, x):
+        
         if x < 0:
             return False
 
