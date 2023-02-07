@@ -6,6 +6,7 @@ public:
 	    solve(board, 0); // calling the recursive function
 	    return sols; 
     }
+	
     bool isSafe(vector<string>& board, int row, int col) {
 	    int n = size(board);
 	    for(int i = 0; i < n; i++) {
