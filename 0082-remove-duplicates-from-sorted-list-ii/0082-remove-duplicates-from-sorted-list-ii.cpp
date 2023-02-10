@@ -26,9 +26,7 @@ public:
             }
             
             head = head->next;  // head keeps on traversing through the list
-        } 
-        
+        }
         return dummy->next;
-        
     }
 };
