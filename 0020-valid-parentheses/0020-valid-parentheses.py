@@ -1,5 +1,6 @@
 class Solution(object):
     def isValid(self, s):
+        
         n = len(s)
         if n == 0:
             return True
